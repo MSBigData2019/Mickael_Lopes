@@ -1,0 +1,20 @@
+([
+
+{ "symbol": "AMZN.O", "ric": "AMZN.O", "name": "Amazon.com Inc", "exchange": "Nasdaq" },
+{ "symbol": "AMZN.OQ", "ric": "AMZN.OQ", "name": "Amazon.com Inc", "exchange": "NASDAQ Stock Exchange Global Select Market" },
+{ "symbol": "AMZN.BE", "ric": "AMZN.BE", "name": "Amazon.com Inc", "exchange": "Berlin Stock Exchange" },
+{ "symbol": "AMZN.D", "ric": "AMZN.D", "name": "Amazon.com Inc", "exchange": "Dusseldorf Stock Exchange" },
+{ "symbol": "AMZN.DE", "ric": "AMZN.DE", "name": "Amazon.com Inc", "exchange": "Xetra" },
+{ "symbol": "AMZN.DF", "ric": "AMZN.DF", "name": "Amazon.com Inc", "exchange": "NASD ADF" },
+{ "symbol": "AMZN.F", "ric": "AMZN.F", "name": "Amazon.com Inc", "exchange": "Frankfurt Stock Exchange" },
+{ "symbol": "AMZN.H", "ric": "AMZN.H", "name": "Amazon.com Inc", "exchange": "Hamburg Stock Exchange" },
+{ "symbol": "AMZN.MU", "ric": "AMZN.MU", "name": "Amazon.com Inc", "exchange": "Munich Stock Exchange" },
+{ "symbol": "AMZN.MW", "ric": "AMZN.MW", "name": "Amazon.com Inc", "exchange": "Midwest Stock Exchange" },
+{ "symbol": "AMZN.MX", "ric": "AMZN.MX", "name": "Amazon.com Inc", "exchange": "Mexico Stock Exchange" },
+{ "symbol": "AMZN.P", "ric": "AMZN.P", "name": "Amazon.com Inc", "exchange": "NYSE Arca" },
+{ "symbol": "AMZN.PH", "ric": "AMZN.PH", "name": "Amazon.com Inc", "exchange": "Philadelphia Stock Exchange" },
+{ "symbol": "AMZO34.SA", "ric": "AMZO34.SA", "name": "Amazon.com Inc", "exchange": "Sao Paulo Stock Exchange" },
+{ "symbol": "0R1O.L", "ric": "0R1O.L", "name": "Amazon.com Inc", "exchange": "London Stock Exchange" },
+{ "symbol": "1AMZO34.SA", "ric": "1AMZO34.SA", "name": "Amazon.com Inc", "exchange": "Sao Paulo Stock Exchange" }
+]);
+

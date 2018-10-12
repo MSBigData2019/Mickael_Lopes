@@ -1,0 +1,535 @@
+#sectionHeaderTopics { border-bottom: none !important; margin-bottom: 0 !important; }
+#headerTopics, #footerTopics {margin-bottom: 10px;}
+
+#overallRatios table tr th,
+#companyVsIndustry table tr th {
+	border-bottom: 1px solid #CCC;
+	padding: 3px 0;
+	font-size: 11px;
+}
+
+#overallRatios table tr td,
+#companyVsIndustry table tr td {
+	background: url("//s3.reutersmedia.net/resources_v2/images/dotsHorizontal.gif") bottom left repeat-x;
+	padding: 3px 0;
+}
+
+#companyVsIndustry table tr th.focus,
+#companyVsIndustry table tr td.focus {
+	font-weight: bold;
+}
+
+#analystRecommendations .module .moduleHeader h3 {
+	font-size: 11px;
+}
+
+/***************/
+/* Quote Header */
+/***************/
+
+#headerQuoteContainer {
+display: inline;
+float:left;
+font-size:12px;
+font-family: arial;
+border-bottom: 3px solid #CCCCCC;
+padding-bottom: 20px;
+margin-bottom:3px;
+margin-top: 20px;
+width:100%;
+}
+
+.nasdaqChange {
+width: 165px !important;
+border-left: 0px !important;
+}
+
+.nasdaqChangeTime {
+font-size: 9px;
+color: #DCOAOA;
+}
+
+.nasdaqChangeHeader {
+font-size: 11px;
+font-weight: bold;
+}
+
+.priceChange {
+width: 152px !important;
+}
+
+.priceDetail {
+font-size: 11px;
+font-weight: bold;
+}
+
+.sectionQuote {
+float:left;
+border-left: 1px solid #CCCCCC;
+margin-right:7px;
+padding-left: 7px;
+width: 127px;
+height: 85px;
+}
+/*.sectionQuoteDetailTop {*/
+.sectionQuoteDetailTop {
+border-bottom: 1px dotted #CCCCCC;
+padding-bottom: 10px;
+margin-bottom: 10px;
+font-size: 14px;
+font-weight: bold;
+}
+
+.sectionQuoteDetail {
+font-size: 14px;
+font-weight: bold;
+}
+
+.sectionQuoteDetailHigh {
+font-size: 14px;
+font-weight: bold;
+color: #458D37;
+}
+
+.sectionQuoteDetailLow {
+font-size: 14px;
+font-weight: bold;
+color: #DC0A0A;
+}
+
+.sectionQuoteDetail .valueContent {
+	font-size: 22px;
+}
+
+.sectionQuoteDetail .valueContent .neg {
+	color: #DC0A0A;
+}
+
+.sectionQuoteDetail .valueContent .pos {
+	color: #458d37;
+}
+
+.sectionQuoteDetail .valueContent .valueContentPercent {
+	font-size: 13px;
+	color: #458D37;
+}
+
+.sectionQuoteDetail .valueContent .valueContentPercent .neg {
+	color: #dc0a0a;
+}
+
+.sectionQuoteDetail .valueContent .valueContentPercent .pos {
+	color: #458d37;
+}
+
+#companyOverviewChart {
+	margin: 0 0 20px 0;
+}
+
+#companyOverviewChart #overviewChart {
+	border: 1px solid #EEE;
+}
+
+#companyOverviewChart h2 {
+	font-size: 14px;
+	color: #333;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#companyOverviewChart #selectExchanges select {
+	margin: 0 0 0 5px;
+	font-size: 11px;
+	color: #666;
+	border: 1px solid #DDD;
+}
+
+/***************/
+/* Company Tabs */
+/***************/
+#companyOverviewTabSection {
+	float: left;
+	width: 100%;
+	display: inline;
+	background: url("//s4.reutersmedia.net/resources_v2/images/bg_gray.gif") bottom left repeat-x;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+#companyOverviewTabSection.sectionSlideshow {
+	margin: 0;
+	}
+
+#companyOverviewTabSection .sectionContent { padding: 0; }
+
+#companyOverviewTabs {
+	float: left;
+	width: 100%;
+	margin: 0 10px;
+	padding: 0;
+}
+
+#companyOverviewTabs ul {
+	margin: 0;
+	padding: 0;
+}
+/* *html #companyOverviewTabs ul li {height:1% !important;} */
+#companyOverviewTabs ul li {
+	background: #F5F5F5;
+	list-style-type: none;
+	float: left;
+	border: 1px solid #CCC;
+	padding: 0;
+	margin: 4px 2px 2px 0;
+
+	width: auto;
+	height: 35px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#companyOverviewTabs ul li a {
+	display:block;
+	float: left;
+	width: auto;
+	margin:0;
+	padding: 11px 16px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#companyOverviewTabs ul li.current {
+	background: #FFF;
+	margin: 1px 2px 0 0;
+	*margin:0 2px 2px 0; /*ie 7 and below*/
+	padding: 0;
+	*padding:0 0 2px; /*ie 7 and below*/	
+	height: 41px;
+	border-bottom: none;
+}
+*html #companyOverviewTabs ul li.current a {
+	display:block;
+	margin:0;
+	padding:12px 16px;
+}
+#companyOverviewTabs ul li.current a {
+	color: #000;
+	display:block;
+	margin:0;
+	padding:12px 16px;
+}
+#companyOverviewTabs ul li.current.slideshow {
+	background: #333;
+}
+#companyOverviewTabs ul li.current.slideshow a {
+	color: #FFF;
+}
+
+#companyProfile {
+	font-size: 11px;
+	color: #666666;
+}
+
+#companyProfile h3 {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+#companyProfile .module {
+	margin: 0 0 10px 0;
+}
+
+#companyProfile .module .moduleHeader {
+	border-top: 0px;
+}
+table.dataTable tbody.dataSmall tr td h2.officers{
+	font-size: 11px;
+	padding:0;
+	margin:0;
+}
+table.dataTable tbody.dataSlick tr td h2.officers{
+	font-size: 12px;
+	padding:0;
+	margin:0;
+}
+.dataSmall a {font-size: 11px;}
+/*********************************/
+/* Quote Details & Ratios Snippet*/
+/*********************************/
+
+.imgLoaded {
+padding: 4px 0px 0px 0px;
+float: right;
+}
+
+#quoteDetail {
+display: inline;
+font-size:12px;
+font-family: arial;
+border-top: 1px solid #666666;
+margin-bottom:3px;
+width:100%;
+}
+
+#companyOverallContainer1 {
+	font-size:12px;
+	font-family: arial;
+	margin-bottom:3px;
+	width: 295px;
+	float: left;
+	margin-right: 15px;
+}
+
+#companyOverallContainer2 {
+	font-size:12px;
+	font-family: arial;
+	margin-bottom:3px;
+	width: 295px;
+	float: left;
+}
+
+.companyOverallHeader{
+	font-size: 11px;
+	font-weight: bold;
+	width: 295px;
+	height: 21px;
+}
+
+.companyOverallHeader span {
+	position: relative;
+	width: 100px;
+	float: right;
+	text-align: right;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0px;
+}
+
+.companyOverallHeader .companyFinancialsSection {
+	font-size: 11px;
+	font-weight: bold;
+	float: left;
+	width: 50px;
+	text-align: left;
+	color: #000000;
+}
+
+.companyOverallHeader .companyFinancialsName {
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.companyOverallHeader .companyFinancialsRange {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.companyOverallListing {
+	width: 295px;
+	clear: both;
+	border-bottom: 1px dotted #000000;
+	font-size: 15px;
+}
+
+.companyOverallListing label {
+	float: left;
+	font-size: 12px;
+}
+
+.companyOverallListing span {
+	width: 100px;
+	float: right;
+	text-align: right;
+	font-weight: bold;
+	color: #000000;
+	font-size: 12px;
+}
+
+/***************/
+/* Research Stocks */
+/***************/
+
+#researchStocks {
+font-size:11px;
+clear: both;
+margin-bottom: 20px;
+}
+/*
+.investingControlsContainer {
+	background: #f6f6f6 url("//s3.reutersmedia.net/resources_v2/images/dotsHorizontal.gif") top left repeat-x;
+	border-bottom: 4px solid #dedede;
+	margin-bottom:12px;
+	margin-right:0;
+	padding: 10px;
+	overflow:hidden;
+}
+*/
+.investingControls {
+
+}
+
+#researchStocks .label {
+display:inline;
+float:left;
+margin:7px 8px 8px 110px;
+}
+
+#researchStocks input, #researchStocks select {
+display:inline;
+float:left;
+font-size:11px;
+margin:4px 2px;
+}
+.stockSearchOptions, .stockSearchOptionsContainer, .stockSearchInput  {
+	float:left;
+	display:inline;
+
+}
+.stockSearchInput  {
+
+}
+
+/***************/
+/* Portfolio */
+/***************/
+
+.portfoliosSectionHalf {
+font-family: arial;
+float: left;
+width: 140px;
+}
+
+.portfoliosHeader {
+margin-bottom: 10px;
+padding-bottom: 8px;
+font-size: 11px;
+font-weight: bold;
+border-bottom: 1px dotted #CCCCCC;
+}
+
+.portfoliosRecentActivity {
+float: left;
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+height: 40px;
+width: 40px;
+margin-bottom: 5px;
+background-color: #CCCCCC;
+}
+
+.portfoliosBuys {
+position: relative;
+top: 5px;
+left: 1px;
+color: #458d37;
+}
+
+.portfoliosSells {
+position: relative;
+top: 5px;
+left: 1px;
+color: #dc0a0a;
+}
+
+.portfoliosHoldRow{
+height: 20px;
+margin-bottom: 5px;
+background-color: #ffc000;
+}
+
+.portfoliosHoldText {
+position: absolute;
+padding-top: 3px;
+font-weight: bold;
+font-size: 11px;
+width: 130px;
+}
+
+/**********************/
+/* Earnings Estimates */
+/**********************/
+
+.evseActual {
+	width: 226px;
+	height: 9px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.evseActual.empty {
+	height: 4px;
+}
+.evseActual img {
+	float: left;
+	display: inline;
+}
+.evseEstimateBox {
+	float: left;
+	display: inline;
+	clear: left;
+	height: 8px;
+	overflow: hidden;
+	background: #EEE;
+	width: 220px;
+	margin: 0 3px;
+}
+.evseEstimateBox .evseEstimates {
+	float: left;
+	display: inline;
+	clear: none;
+	background: #FFC000;
+	height: 8px;
+	overflow: hidden;
+}
+
+
+/**************************/
+/* Insider Trading Details */
+/**************************/
+
+.tradeDetailsLabel1 {
+	font-weight: bold;
+	width: 100px;
+}
+
+.tradeDetailsData1 {
+	width: 200px;
+	text-align: left;
+}
+
+.tradeDetailsLabel2 {
+	font-weight: bold;
+	width: 200px;
+}
+
+.tradeDetailsData12 {
+	width: 100px;
+	text-align: right;
+}
+
+.insiderTradingHeader {
+	font-size: 12px;
+	font-weight: bold;
+	white-space: nowrap;
+	border-bottom: 0px;
+	padding: 10px 0 10px 5px;
+}
+
+.tradeDetailsOptions {
+	text-align: right;
+}
+#companyNews .topStory h2{
+	font-size: 28px;
+	margin: 0 0 10px 0;
+	line-height: 1.1;
+	font-weight: normal;
+}
+#companyNews .topStory h2 a{
+	color:#000000;
+}
